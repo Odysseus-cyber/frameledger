@@ -6,6 +6,8 @@ A local-first AI video asset manager with smart tagging, search, and token usage
 
 **项目状态：规划阶段。当前仓库包含技术选型与开发路线，尚未提供可运行的软件。下文描述的是计划能力与实现顺序。**
 
+**架构决策记录**：[ADR 0001：本地桌面应用的初始架构](docs/adr/0001-local-desktop-architecture.md)——记录选型依据、接受的代价与重新评估条件。
+
 ## 1. 产品目标
 
 FrameLedger 首先解决三个问题：素材越来越多，难以找到；生成来源与提示词分散，难以复用；AI 调用不断发生，难以知道钱花在哪里。
